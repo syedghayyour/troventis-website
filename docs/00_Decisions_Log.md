@@ -83,3 +83,14 @@ Split into Component DoD and Page DoD (`docs/02_Definition_of_Done.md`),
 enforced via CI steps and PR template. Screen reader criterion = human
 VoiceOver pass using per-page scripts; automated a11y (axe) is necessary
 but not sufficient.
+
+## ADR-007: Homepage auto-advancing brand slider
+
+**Status:** Accepted (Product Owner decision) · 2026-07-22
+
+Amends Signal §5 ("nothing loops") with one sanctioned exception: the
+homepage hero slider. Conditions: custom Signal brand artwork only (no
+stock photography), 5s crossfade, visible pause/play control (WCAG
+2.2.2), pauses on hover/focus/hidden tab, autoplay fully disabled under
+prefers-reduced-motion. Technical Lead recommendation against autoplay
+recorded; PO preference prevails.

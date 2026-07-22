@@ -11,7 +11,8 @@
     "projects": "Projects",
     "contact": "Contact",
     "imprint": "Imprint",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "about": "About"
   },
   "footer": {
     "tagline": "Quality, verified."
@@ -49,6 +50,21 @@
       "heading": "Let's talk about quality.",
       "body": "QA strategy, test automation, or cloud modernization — we advise honestly, with technical depth and without buzzwords.",
       "cta": "Book a consultation"
+    },
+    "carousel": {
+      "prev": "Previous project",
+      "next": "Next project"
+    },
+    "slider": {
+      "pause": "Pause slideshow",
+      "play": "Resume slideshow",
+      "slide": "Slide",
+      "captions": [
+        "Presenting quality metrics to the team",
+        "A reliable partnership",
+        "Software engineering with quality metrics",
+        "Client consultation"
+      ]
     }
   },
   "services": {
@@ -233,5 +249,38 @@
         ]
       }
     ]
+  },
+  "about": {
+    "metaTitle": "About – Troventis",
+    "metaDescription": "Troventis is a founder-led boutique technology consultancy based in Frankfurt am Main, focused on software quality engineering.",
+    "label": "05 · about",
+    "heading": "About Troventis",
+    "intro": "Troventis is a founder-led boutique technology consultancy based in Frankfurt am Main — founded in 2026 on a simple conviction: software quality is not a promise, it is an outcome you can prove.",
+    "storyHeading": "Why Troventis",
+    "story": [
+      "Behind Troventis are more than ten years of enterprise software quality engineering experience — across international teams, large software landscapes, and projects where reliability is not a nice-to-have.",
+      "That experience made a gap visible: many organizations buy consulting at corporate scale and receive junior teams. Troventis inverts that model — deliberately boutique, with senior expertise in every engagement and trusted partners joining as projects grow.",
+      "The name is the program: we verify instead of promising. Every delivery is reviewed, tested, and transparently documented."
+    ],
+    "founderHeading": "Founder",
+    "founderName": "Syed Ghayyour Ahmed",
+    "founderRole": "Founder & Principal Consultant",
+    "founderBio": "Software quality engineer with over ten years of experience in test strategy, test automation, and quality processes for enterprise applications — from telecommunications to the public sector.",
+    "valuesHeading": "What we hold ourselves to",
+    "values": [
+      {
+        "title": "Honesty over revenue",
+        "body": "If we are not the right fit for a project, we say so — and recommend who might be."
+      },
+      {
+        "title": "Quality, provable",
+        "body": "Measurable quality goals instead of gut feeling. What we deliver is reviewed, tested, and documented."
+      },
+      {
+        "title": "Long-term partnership",
+        "body": "We optimize for the collaboration after the project — knowledge stays with your team, not with us."
+      }
+    ],
+    "cta": "Book a consultation"
   }
 }

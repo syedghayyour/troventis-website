@@ -17,6 +17,8 @@ type Props = {
   assertion?: string;
   /** Show the wordmark with blinking cursor (homepage only). */
   brandmark?: boolean;
+  /** Optional visual column (e.g. the brand slider) on desktop. */
+  aside?: React.ReactNode;
 };
 
 export function Hero({
@@ -28,46 +30,54 @@ export function Hero({
   secondary,
   assertion,
   brandmark = false,
+  aside,
 }: Props) {
   return (
     <Section label={label} className="flex min-h-[70vh] items-center">
-      <div className="max-w-[68ch]">
-        {brandmark ? (
-          <Reveal>
-            <Wordmark size={44} blink />
+      <div
+        className={
+          aside ? "grid items-center gap-12 lg:grid-cols-2 lg:gap-16" : undefined
+        }
+      >
+        <div className="max-w-[68ch]">
+          {brandmark ? (
+            <Reveal>
+              <Wordmark size={44} blink />
+            </Reveal>
+          ) : null}
+          <Reveal delay={brandmark ? 60 : 0}>
+            <h1
+              className={`${brandmark ? "mt-8" : ""} text-display font-semibold text-ink`}
+            >
+              {heading}
+            </h1>
           </Reveal>
-        ) : null}
-        <Reveal delay={brandmark ? 60 : 0}>
-          <h1
-            className={`${brandmark ? "mt-8" : ""} text-display font-semibold text-ink`}
-          >
-            {heading}
-          </h1>
-        </Reveal>
-        <Reveal delay={brandmark ? 120 : 60}>
-          <p className="mt-6 text-body-lg text-ink-muted">{tagline}</p>
-          {subline ? <p className="mt-2 text-body text-ink-muted">{subline}</p> : null}
-        </Reveal>
-        <Reveal delay={brandmark ? 180 : 120}>
-          <div className="mt-10 flex flex-wrap items-center gap-4">
-            <Button href={primary.href} variant="primary">
-              {primary.label}
-            </Button>
-            {secondary ? (
-              <Button href={secondary.href} variant="secondary">
-                {secondary.label}
+          <Reveal delay={brandmark ? 120 : 60}>
+            <p className="mt-6 text-body-lg text-ink-muted">{tagline}</p>
+            {subline ? <p className="mt-2 text-body text-ink-muted">{subline}</p> : null}
+          </Reveal>
+          <Reveal delay={brandmark ? 180 : 120}>
+            <div className="mt-10 flex flex-wrap items-center gap-4">
+              <Button href={primary.href} variant="primary">
+                {primary.label}
               </Button>
-            ) : null}
-            {assertion ? (
-              <Badge>
-                {assertion}
-                <span aria-hidden="true" className="text-signal">
-                  ✓
-                </span>
-              </Badge>
-            ) : null}
-          </div>
-        </Reveal>
+              {secondary ? (
+                <Button href={secondary.href} variant="secondary">
+                  {secondary.label}
+                </Button>
+              ) : null}
+              {assertion ? (
+                <Badge>
+                  {assertion}
+                  <span aria-hidden="true" className="text-signal">
+                    ✓
+                  </span>
+                </Badge>
+              ) : null}
+            </div>
+          </Reveal>
+        </div>
+        {aside ? <Reveal delay={240}>{aside}</Reveal> : null}
       </div>
     </Section>
   );

@@ -11,7 +11,8 @@
     "projects": "Projekte",
     "contact": "Kontakt",
     "imprint": "Impressum",
-    "privacy": "Datenschutz"
+    "privacy": "Datenschutz",
+    "about": "Über uns"
   },
   "footer": {
     "tagline": "Qualität, verifiziert."
@@ -49,6 +50,21 @@
       "heading": "Lassen Sie uns über Qualität sprechen.",
       "body": "Ob QA-Strategie, Testautomatisierung oder Cloud-Modernisierung – wir beraten Sie ehrlich, technisch fundiert und ohne Buzzwords.",
       "cta": "Beratungsgespräch vereinbaren"
+    },
+    "carousel": {
+      "prev": "Vorheriges Projekt",
+      "next": "Nächstes Projekt"
+    },
+    "slider": {
+      "pause": "Bildwechsel pausieren",
+      "play": "Bildwechsel fortsetzen",
+      "slide": "Bild",
+      "captions": [
+        "Präsentation von Qualitätsmetriken im Team",
+        "Verlässliche Partnerschaft auf Augenhöhe",
+        "Software-Engineering mit Qualitätsmetriken",
+        "Beratungsgespräch mit Kunden"
+      ]
     }
   },
   "services": {
@@ -233,5 +249,38 @@
         ]
       }
     ]
+  },
+  "about": {
+    "metaTitle": "Über uns – Troventis",
+    "metaDescription": "Troventis ist eine inhabergeführte Boutique-Technologieberatung aus Frankfurt am Main mit Fokus auf Software Quality Engineering.",
+    "label": "05 · über uns",
+    "heading": "Über Troventis",
+    "intro": "Troventis ist eine inhabergeführte Boutique-Technologieberatung mit Sitz in Frankfurt am Main – gegründet 2026 mit einer einfachen Überzeugung: Softwarequalität ist kein Versprechen, sondern ein Ergebnis, das man belegen kann.",
+    "storyHeading": "Warum Troventis",
+    "story": [
+      "Hinter Troventis stehen mehr als zehn Jahre Erfahrung im Enterprise Software Quality Engineering – in internationalen Teams, großen Softwarelandschaften und Projekten, in denen Verlässlichkeit kein Nice-to-have ist.",
+      "Diese Erfahrung hat eine Lücke sichtbar gemacht: Viele Organisationen kaufen Beratung in Konzerngröße ein und erhalten Junior-Teams. Troventis dreht dieses Modell um – bewusst boutique, mit Senior-Expertise in jedem Engagement und Partnern, die dazukommen, wenn Projekte wachsen.",
+      "Der Name ist Programm: Wir verifizieren, statt zu versprechen. Jede Lieferung ist reviewt, getestet und nachvollziehbar dokumentiert."
+    ],
+    "founderHeading": "Gründer",
+    "founderName": "Syed Ghayyour Ahmed",
+    "founderRole": "Gründer & Principal Consultant",
+    "founderBio": "Software Quality Engineer mit über zehn Jahren Erfahrung in Teststrategie, Testautomatisierung und Qualitätsprozessen für Unternehmensanwendungen – von Telekommunikation bis öffentlicher Sektor.",
+    "valuesHeading": "Woran wir uns messen lassen",
+    "values": [
+      {
+        "title": "Ehrlichkeit vor Umsatz",
+        "body": "Wenn wir nicht die Richtigen für ein Vorhaben sind, sagen wir das – und empfehlen, wer es sein könnte."
+      },
+      {
+        "title": "Qualität, belegbar",
+        "body": "Messbare Qualitätsziele statt Bauchgefühl. Was wir liefern, ist reviewt, getestet und dokumentiert."
+      },
+      {
+        "title": "Langfristige Partnerschaft",
+        "body": "Wir optimieren für die Zusammenarbeit nach dem Projekt – Wissen bleibt bei Ihrem Team, nicht bei uns."
+      }
+    ],
+    "cta": "Beratungsgespräch vereinbaren"
   }
 }

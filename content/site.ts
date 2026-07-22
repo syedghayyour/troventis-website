@@ -1,8 +1,5 @@
-/**
- * Site-wide contact facts. TODO(owner): replace both values with the
- * real business email and LinkedIn URL before Phase 3 goes live.
- */
+/** Site-wide contact facts — single source of truth for all pages. */
 export const site = {
-  email: "hello@troventis.de",
-  linkedin: "https://www.linkedin.com/company/troventis",
+  email: "engr.ghayyourahmed@gmail.com",
+  linkedin: "https://www.linkedin.com/in/syed-ghayyour-ahmed-54887017/",
 } as const;

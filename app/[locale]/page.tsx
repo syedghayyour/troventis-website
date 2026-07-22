@@ -2,13 +2,15 @@ import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { serviceSlugs, serviceIcons } from "@/content/services";
-import { featuredProjects } from "@/content/projects";
+import { projectSlugs } from "@/content/projects";
 import { Hero } from "@/components/sections/Hero";
 import { Section } from "@/components/ui/Section";
 import { ServiceCard } from "@/components/sections/ServiceCard";
 import { ProjectCard } from "@/components/sections/ProjectCard";
 import { StatBlock } from "@/components/sections/StatBlock";
 import { CTABanner } from "@/components/sections/CTABanner";
+import { Carousel } from "@/components/sections/Carousel";
+import { ImageSlider } from "@/components/sections/ImageSlider";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/motion/Reveal";
 
@@ -28,6 +30,26 @@ export default async function HomePage({ params }: Props) {
         primary={{ label: dict.home.ctaPrimary, href: `/${locale}/contact/` }}
         secondary={{ label: dict.home.ctaSecondary, href: `/${locale}/services/` }}
         assertion={dict.home.assertion}
+        aside={
+          <ImageSlider
+            pauseLabel={dict.home.slider.pause}
+            playLabel={dict.home.slider.play}
+            slideAriaPrefix={dict.home.slider.slide}
+            slides={["presentation", "partnership", "engineering", "consulting"].map(
+              (name, i) => ({
+                node: (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={`/slides/${name}.webp`}
+                    alt=""
+                    className="h-full w-full object-cover"
+                  />
+                ),
+                caption: dict.home.slider.captions[i] ?? "",
+              }),
+            )}
+          />
+        }
       />
 
       <Section label={dict.home.servicesLabel} raised>
@@ -78,17 +100,21 @@ export default async function HomePage({ params }: Props) {
             {dict.home.projectsLink} →
           </Button>
         </div>
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
-          {featuredProjects.map((slug, i) => (
-            <Reveal key={slug} delay={i * 60}>
+        <div className="mt-10">
+          <Carousel
+            prevLabel={dict.home.carousel.prev}
+            nextLabel={dict.home.carousel.next}
+          >
+            {projectSlugs.map((slug) => (
               <ProjectCard
+                key={slug}
                 title={dict.projects.items[slug].title}
                 summary={dict.projects.items[slug].summary}
                 tags={[...dict.projects.items[slug].tags]}
                 href={`/${locale}/projects/`}
               />
-            </Reveal>
-          ))}
+            ))}
+          </Carousel>
         </div>
       </Section>
 
