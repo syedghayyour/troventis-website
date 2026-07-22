@@ -1,0 +1,7 @@
+# Baseline security headers for all statically served pages.
+# CSP is added in Phase 7 once the final asset/script inventory is known.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()

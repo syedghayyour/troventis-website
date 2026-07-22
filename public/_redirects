@@ -1,0 +1,3 @@
+# Root → default locale (ADR-002). 302 during development; switch to
+# 301 after launch once we're certain the strategy is final.
+/ /de/ 302

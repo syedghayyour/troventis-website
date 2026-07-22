@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens – structure only in Phase 1.
+ * Real values (brand palette, type scale) are defined in Phase 2 and
+ * become the single source of truth for Tailwind via @theme.
+ * Dark mode: class-based (ADR-003), toggled on <html> by the theme
+ * bootstrap script before first paint.
+ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Placeholder neutrals – replaced by the Phase 2 design system. */
+  --color-surface: #ffffff;
+  --color-surface-dark: #0a0a0f;
+  --color-ink: #111118;
+  --color-ink-dark: #f2f2f5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  @apply bg-[--color-surface] text-[--color-ink];
+}
+.dark body {
+  @apply bg-[--color-surface-dark] text-[--color-ink-dark];
+}

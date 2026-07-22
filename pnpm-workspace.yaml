@@ -1,0 +1,6 @@
+# pnpm settings (pnpm ≥10 reads these here, not package.json).
+# Explicit allowlist of packages permitted to run install scripts –
+# part of our supply-chain hygiene.
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
