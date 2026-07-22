@@ -1,24 +1,136 @@
 @import "tailwindcss";
 
 /*
- * Design tokens – structure only in Phase 1.
- * Real values (brand palette, type scale) are defined in Phase 2 and
- * become the single source of truth for Tailwind via @theme.
- * Dark mode: class-based (ADR-003), toggled on <html> by the theme
+ * Signal Design System — tokens (docs/01_Signal_Design_System.md)
+ * Single source of truth. No component may use raw color values.
+ * Light mode is default; .dark overrides are set by the theme
  * bootstrap script before first paint.
  */
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  /* Placeholder neutrals – replaced by the Phase 2 design system. */
+  /* ---- Color: light mode ---- */
   --color-surface: #ffffff;
-  --color-surface-dark: #0a0a0f;
-  --color-ink: #111118;
-  --color-ink-dark: #f2f2f5;
+  --color-surface-raised: #f6f8fa;
+  --color-surface-sunken: #edf1f5;
+  --color-ink: #111a2b;
+  --color-ink-muted: #4a5568;
+  --color-ink-faint: #8a94a6;
+  --color-navy: #12263f;
+  --color-navy-hover: #1b3557;
+  --color-signal: #047b57;
+  --color-signal-hover: #03664a;
+  --color-signal-tint: #e8f5f0;
+  --color-line: #e2e8f0;
+  --color-line-strong: #cbd5e1;
+  --color-danger: #b42318;
+  --color-warning: #b54708;
+  --color-on-navy: #ffffff;
+
+  /* ---- Typography ---- */
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --text-display: clamp(2.5rem, 1.6rem + 3.8vw, 4rem);
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.03em;
+  --text-h1: clamp(2rem, 1.4rem + 2.5vw, 3rem);
+  --text-h1--line-height: 1.15;
+  --text-h1--letter-spacing: -0.02em;
+  --text-h2: clamp(1.625rem, 1.35rem + 1.2vw, 2.125rem);
+  --text-h2--line-height: 1.2;
+  --text-h2--letter-spacing: -0.02em;
+  --text-h3: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --text-h3--line-height: 1.3;
+  --text-h3--letter-spacing: -0.01em;
+  --text-body-lg: clamp(1.125rem, 1.08rem + 0.25vw, 1.25rem);
+  --text-body-lg--line-height: 1.6;
+  --text-body: 1rem;
+  --text-body--line-height: 1.65;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.5;
+  --text-mono-label: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);
+  --text-mono-label--line-height: 1.4;
+  --text-mono-label--letter-spacing: 0.08em;
+
+  /* ---- Radii ---- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* ---- Elevation ---- */
+  --shadow-raise: 0 1px 2px rgb(17 26 43 / 0.06);
+  --shadow-lift: 0 8px 24px rgb(17 26 43 / 0.1);
+
+  /* ---- Motion ---- */
+  --motion-fast: 150ms;
+  --motion-base: 220ms;
+  --motion-slow: 320ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+}
+
+/* Dark mode: the navy world itself (Signal §1.2). */
+.dark {
+  --color-surface: #0b1420;
+  --color-surface-raised: #111e30;
+  --color-surface-sunken: #081019;
+  --color-ink: #e6ebf2;
+  --color-ink-muted: #94a3b8;
+  --color-ink-faint: #5b6b80;
+  --color-navy: #1b3557;
+  --color-navy-hover: #24466f;
+  --color-signal: #2dd48f;
+  --color-signal-hover: #4ae0a3;
+  --color-signal-tint: #0e2a22;
+  --color-line: #223349;
+  --color-line-strong: #314764;
+  --color-danger: #f97066;
+  --color-warning: #fdb022;
+  --color-on-navy: #e6ebf2;
+  --shadow-raise: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-lift: 0 8px 24px rgb(0 0 0 / 0.4);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  transition:
+    background-color var(--motion-base) var(--ease-standard),
+    color var(--motion-base) var(--ease-standard);
+}
+
+/* Focus: signal-colored, always visible (Signal §8.2 — budget-exempt). */
+:focus-visible {
+  outline: 2px solid var(--color-signal);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background-color: var(--color-signal-tint);
+  color: var(--color-ink);
+}
+
+/* Wordmark cursor: blinks 3× on load, then solid (Signal §5.5). */
+@keyframes signal-cursor-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+.cursor-blink {
+  animation: signal-cursor-blink 1.1s steps(1) 3;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -32,11 +144,4 @@ html {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-}
-
-body {
-  @apply bg-[--color-surface] text-[--color-ink];
-}
-.dark body {
-  @apply bg-[--color-surface-dark] text-[--color-ink-dark];
 }

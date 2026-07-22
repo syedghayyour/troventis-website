@@ -63,3 +63,23 @@ Vitals on that page.
   (Phase 2, Navbar).
 - Pre-optimization tooling for images (sharp, build step): Phase 5 when
   real assets exist.
+
+## ADR-005: Signal design system adopted
+
+**Status:** Accepted · 2026-07-22
+
+Full specification in `docs/01_Signal_Design_System.md`. Navy = structure,
+signal green = verification; IBM Plex Sans/Mono self-hosted via
+@fontsource (GDPR: no font CDN); Signal Budget (≤3 green appearances per
+viewport); closed motion vocabulary (5 animations); terminal language
+whitelist. Token contrast is verified programmatically in CI
+(`pnpm verify:contrast`).
+
+## ADR-006: Definition of Done adopted
+
+**Status:** Accepted · 2026-07-22
+
+Split into Component DoD and Page DoD (`docs/02_Definition_of_Done.md`),
+enforced via CI steps and PR template. Screen reader criterion = human
+VoiceOver pass using per-page scripts; automated a11y (axe) is necessary
+but not sufficient.

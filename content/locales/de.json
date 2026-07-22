@@ -3,9 +3,21 @@
     "title": "Troventis – Enterprise Technology Consulting",
     "description": "Troventis ist Ihr Partner für Software Quality Engineering, Testautomatisierung, KI-Lösungen, Cloud Engineering und digitale Transformation."
   },
+  "nav": {
+    "homeAria": "Zur Startseite",
+    "themeLight": "Zum hellen Design wechseln",
+    "themeDark": "Zum dunklen Design wechseln"
+  },
+  "footer": {
+    "tagline": "Qualität, verifiziert."
+  },
   "home": {
-    "heading": "Troventis",
-    "tagline": "Enterprise Technology Consulting",
-    "status": "Website im Aufbau – Version 1.0 erscheint in Kürze."
+    "sectionLabel": "00 · troventis",
+    "heading": "Softwarequalität. Entwickelt und verifiziert.",
+    "tagline": "Enterprise Technology Consulting für Quality Engineering, Testautomatisierung, KI-Lösungen und Cloud Engineering.",
+    "status": "Die vollständige Website befindet sich im Aufbau.",
+    "ctaPrimary": "Kontakt aufnehmen",
+    "ctaSecondary": "Unsere Leistungen",
+    "assertion": "website v1 · in Arbeit"
   }
 }
