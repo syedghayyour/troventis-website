@@ -36,7 +36,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: dict.meta.title,
     description: dict.meta.description,
     metadataBase: new URL("https://troventis.de"),
-    icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }] },
+    icons: { icon: [{ url: "/favicon.png", type: "image/png" }] },
+    openGraph: {
+      title: dict.meta.title,
+      description: dict.meta.description,
+      images: [{ url: "/og.png", width: 1200, height: 630, alt: dict.meta.ogAlt }],
+      type: "website",
+    },
     alternates: {
       languages: { de: "/de/", en: "/en/", "x-default": "/de/" },
     },

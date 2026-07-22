@@ -1,21 +1,19 @@
 /**
- * Signal §9 — the block-only icon (favicon/avatar contexts, sizes
- * below 96px wordmark minimum).
+ * Signal §9 — the brand mark (v2: extracted from the official banner).
+ * Transparent PNG; green mark works on light and dark surfaces.
  */
 type Props = { size?: number; className?: string };
 
 export function Mark({ size = 32, className }: Props) {
   return (
-    <svg
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src="/brand/mark.png"
+      alt="Troventis"
       width={size}
-      height={size}
-      viewBox="0 0 32 32"
-      role="img"
-      aria-label="Troventis"
+      height={Math.round(size * 0.7)}
       className={className}
-    >
-      <rect width="32" height="32" rx="7" fill="#12263F" />
-      <rect x="11" y="8" width="10" height="16" fill="#2DD48F" />
-    </svg>
+      style={{ width: size, height: "auto" }}
+    />
   );
 }

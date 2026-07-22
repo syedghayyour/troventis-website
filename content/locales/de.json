@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "Troventis – Enterprise Technology Consulting",
-    "description": "Boutique-Technologieberatung aus Frankfurt: Software Quality Engineering, Testautomatisierung, KI-Lösungen, Cloud Engineering und Softwareentwicklung."
+    "description": "Boutique-Technologieberatung aus Frankfurt: Software Quality Engineering, Testautomatisierung, KI-Lösungen, Cloud Engineering und Softwareentwicklung.",
+    "ogAlt": "Troventis – Software Quality. Verified."
   },
   "nav": {
     "homeAria": "Zur Startseite",
@@ -19,8 +20,8 @@
   },
   "home": {
     "sectionLabel": "00 · troventis",
-    "heading": "Softwarequalität. Entwickelt und verifiziert.",
-    "tagline": "Boutique-Technologieberatung für Quality Engineering, Testautomatisierung, KI-Lösungen und Cloud Engineering – für Organisationen, die Qualität und Verlässlichkeit ernst nehmen.",
+    "heading": "Softwarequalität. Verifiziert.",
+    "tagline": "Wir bauen Vertrauen in jedes Release ein.",
     "ctaPrimary": "Beratungsgespräch vereinbaren",
     "ctaSecondary": "Unsere Leistungen",
     "assertion": "senior engineering expertise",
@@ -65,7 +66,8 @@
         "Software-Engineering mit Qualitätsmetriken",
         "Beratungsgespräch mit Kunden"
       ]
-    }
+    },
+    "subline": "Boutique-Technologieberatung für Quality Engineering, Testautomatisierung, KI-Lösungen und Cloud Engineering – für Organisationen, die Qualität und Verlässlichkeit ernst nehmen."
   },
   "services": {
     "metaTitle": "Leistungen – Troventis",

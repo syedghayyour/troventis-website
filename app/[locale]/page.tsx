@@ -27,6 +27,7 @@ export default async function HomePage({ params }: Props) {
         label={dict.home.sectionLabel}
         heading={dict.home.heading}
         tagline={dict.home.tagline}
+        subline={dict.home.subline}
         primary={{ label: dict.home.ctaPrimary, href: `/${locale}/contact/` }}
         secondary={{ label: dict.home.ctaSecondary, href: `/${locale}/services/` }}
         assertion={dict.home.assertion}
