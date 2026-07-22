@@ -1,12 +1,15 @@
 {
   "meta": {
     "title": "Troventis – Enterprise Technology Consulting",
-    "description": "Troventis is your partner for software quality engineering, test automation, AI solutions, cloud engineering, and digital transformation."
+    "description": "Boutique technology consultancy in Frankfurt: software quality engineering, test automation, AI solutions, cloud engineering, and software development."
   },
   "nav": {
     "homeAria": "Go to homepage",
     "themeLight": "Switch to light theme",
-    "themeDark": "Switch to dark theme"
+    "themeDark": "Switch to dark theme",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
   },
   "footer": {
     "tagline": "Quality, verified."
@@ -14,10 +17,108 @@
   "home": {
     "sectionLabel": "00 · troventis",
     "heading": "Software quality. Engineered and verified.",
-    "tagline": "Enterprise technology consulting for quality engineering, test automation, AI solutions, and cloud engineering.",
-    "status": "The full website is under construction.",
-    "ctaPrimary": "Get in touch",
+    "tagline": "Boutique technology consultancy for quality engineering, test automation, AI solutions, and cloud engineering — for organizations that take quality and reliability seriously.",
+    "ctaPrimary": "Book a consultation",
     "ctaSecondary": "Our services",
-    "assertion": "website v1 · in progress"
+    "assertion": "senior engineering expertise",
+    "servicesLabel": "01 · services",
+    "servicesHeading": "What we deliver",
+    "servicesLink": "Learn more",
+    "approachLabel": "02 · approach",
+    "approachHeading": "Verify, don't promise",
+    "approachBody": "Troventis is a founder-led boutique consultancy based in Frankfurt am Main. We combine senior engineering expertise with modern delivery practices — and prove quality instead of claiming it. Every delivery is reviewed, tested, and transparently documented. We deliberately start focused and scale with trusted specialists as projects grow.",
+    "stats": {
+      "years": {
+        "suffix": "+",
+        "label": "Years of enterprise software quality engineering experience"
+      },
+      "founded": { "label": "Founded in Frankfurt am Main" },
+      "disciplines": {
+        "label": "Core disciplines — from QA strategy to cloud engineering"
+      }
+    },
+    "projectsLabel": "03 · projects",
+    "projectsHeading": "Selected work",
+    "projectsLink": "View all projects",
+    "ctaBanner": {
+      "label": "04 · contact",
+      "heading": "Let's talk about quality.",
+      "body": "QA strategy, test automation, or cloud modernization — we advise honestly, with technical depth and without buzzwords.",
+      "cta": "Book a consultation"
+    }
+  },
+  "services": {
+    "metaTitle": "Services – Troventis",
+    "metaDescription": "Software quality engineering, test automation, AI solutions, cloud engineering & DevOps, and software development — services by Troventis.",
+    "label": "01 · services",
+    "heading": "Services",
+    "intro": "Five core disciplines, one standard: software whose quality can be proven. Every engagement starts with the business problem — not the tool.",
+    "items": {
+      "quality-engineering": {
+        "title": "Software quality engineering",
+        "summary": "QA strategy, test architecture, and quality processes for reliable software delivery.",
+        "body": "We analyze your delivery pipeline, define measurable quality goals, and anchor quality assurance where it works: early in the process. From test strategy and test architecture through reviews to quality metrics that enable decisions."
+      },
+      "test-automation": {
+        "title": "Test automation",
+        "summary": "Maintainable automation for API, web, and integration — anchored in your CI/CD pipeline.",
+        "body": "Automation that builds confidence instead of maintenance burden: clean test architecture, stable API, web, and integration tests, and consistent CI/CD integration. The result is fast, reliable feedback loops for your team."
+      },
+      "ai-solutions": {
+        "title": "AI solutions",
+        "summary": "AI-powered backend services and quality assurance for AI-based systems.",
+        "body": "We build AI-powered services for enterprise applications and bring quality discipline to AI systems: evaluation, testability, and reliable behavior in production — pragmatic and hype-free."
+      },
+      "cloud-devops": {
+        "title": "Cloud engineering & DevOps",
+        "summary": "CI/CD optimization, cloud-native architectures, and delivery processes that scale.",
+        "body": "From CI/CD pipeline optimization to cloud-native quality initiatives: we modernize delivery processes so releases become faster, safer, and repeatable — with infrastructure your team understands and can operate."
+      },
+      "software-development": {
+        "title": "Software development",
+        "summary": "Senior development for backend services and enterprise platforms — testable from day one.",
+        "body": "Development with a quality standard: clean architecture, testability as a design criterion, and code your team can maintain long-term. Ideal for teams looking for reinforcement with a senior perspective."
+      }
+    }
+  },
+  "projects": {
+    "metaTitle": "Projects – Troventis",
+    "metaDescription": "Selected anonymized projects: test automation, AI backend services, CI/CD optimization, and quality engineering in enterprise environments.",
+    "label": "03 · projects",
+    "heading": "Projects",
+    "intro": "Selected work from enterprise environments — anonymized for confidentiality. We are happy to discuss details in a personal conversation.",
+    "confidentiality": "Client names and confidential details are never published.",
+    "items": {
+      "telecom-automation": {
+        "title": "Test automation platform",
+        "summary": "Building a test automation platform for a German telecommunications company — API and integration testing, anchored in the CI/CD pipeline.",
+        "tags": ["telecommunications", "api testing", "ci/cd"]
+      },
+      "ai-backend": {
+        "title": "AI-powered backend services",
+        "summary": "Developing AI-powered backend services for enterprise applications — focused on evaluation, testability, and production-ready behavior.",
+        "tags": ["ai", "backend", "enterprise"]
+      },
+      "web-platform-qe": {
+        "title": "Web platform quality engineering",
+        "summary": "Quality engineering for an enterprise-wide web platform: test strategy, test architecture, and measurable quality goals across multiple teams.",
+        "tags": ["quality engineering", "web", "strategy"]
+      },
+      "public-sector": {
+        "title": "Public sector quality consulting",
+        "summary": "Advising a public sector organization on software quality, testing processes, and sustainable quality assurance in procurement.",
+        "tags": ["public sector", "qa strategy", "consulting"]
+      }
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact – Troventis",
+    "metaDescription": "Contact Troventis to book a consultation on software quality engineering, test automation, AI solutions, and cloud engineering.",
+    "label": "04 · contact",
+    "heading": "Book a consultation",
+    "intro": "Tell us about your project — we usually respond within one business day. Honest assessment included: if we're not the right fit, we'll say so.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "formNote": "A contact form is coming shortly. Until then, reach us directly by email."
   }
 }
