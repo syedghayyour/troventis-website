@@ -9,7 +9,9 @@
     "themeDark": "Switch to dark theme",
     "services": "Services",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "imprint": "Imprint",
+    "privacy": "Privacy"
   },
   "footer": {
     "tagline": "Quality, verified."
@@ -32,7 +34,9 @@
         "suffix": "+",
         "label": "Years of enterprise software quality engineering experience"
       },
-      "founded": { "label": "Founded in Frankfurt am Main" },
+      "founded": {
+        "label": "Founded in Frankfurt am Main"
+      },
       "disciplines": {
         "label": "Core disciplines — from QA strategy to cloud engineering"
       }
@@ -120,5 +124,114 @@
     "emailLabel": "Email",
     "linkedinLabel": "LinkedIn",
     "formNote": "A contact form is coming shortly. Until then, reach us directly by email."
+  },
+  "imprint": {
+    "metaTitle": "Imprint – Troventis",
+    "metaDescription": "Imprint and provider identification of Troventis pursuant to Section 5 DDG (German Digital Services Act).",
+    "label": "legal · imprint",
+    "heading": "Imprint",
+    "sections": [
+      {
+        "h": "Information pursuant to § 5 DDG",
+        "p": [
+          "Syed Ghayyour Ahmed",
+          "Troventis",
+          "Günter-Vogt-Ring 38",
+          "60437 Frankfurt am Main",
+          "Germany"
+        ]
+      },
+      {
+        "h": "Contact",
+        "p": ["Phone: +49 172 6069684", "Email: {email}"]
+      },
+      {
+        "h": "VAT identification number",
+        "p": ["VAT ID pursuant to § 27a of the German VAT Act (UStG): DE461735122"]
+      },
+      {
+        "h": "Professional designation",
+        "p": ["Freelance IT consultant (technology consulting), practicing in Germany."]
+      },
+      {
+        "h": "Responsible for content pursuant to § 18 (2) MStV",
+        "p": ["Syed Ghayyour Ahmed, Günter-Vogt-Ring 38, 60437 Frankfurt am Main"]
+      },
+      {
+        "h": "Dispute resolution",
+        "p": [
+          "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+        ]
+      },
+      {
+        "h": "Liability for content",
+        "p": [
+          "The contents of this website have been created with the greatest possible care. However, we cannot guarantee the accuracy, completeness, or timeliness of the content. As a service provider, we are responsible for our own content on these pages in accordance with general law."
+        ]
+      },
+      {
+        "h": "Liability for links",
+        "p": [
+          "This website contains links to external third-party websites over whose content we have no influence. The respective provider is always responsible for the content of linked pages. No legal violations were identifiable at the time of linking."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy – Troventis",
+    "metaDescription": "Privacy policy of Troventis: information on the processing of personal data in accordance with the GDPR.",
+    "label": "legal · privacy",
+    "heading": "Privacy policy",
+    "updated": "Last updated: July 2026",
+    "sections": [
+      {
+        "h": "1. Controller",
+        "p": [
+          "The controller within the meaning of the General Data Protection Regulation (GDPR) is: Syed Ghayyour Ahmed, Troventis, Günter-Vogt-Ring 38, 60437 Frankfurt am Main, Germany. Email: {email}, phone: +49 172 6069684."
+        ]
+      },
+      {
+        "h": "2. General information on data processing",
+        "p": [
+          "This website is deliberately designed to be data-minimal. We do not use tracking cookies, do not embed third-party fonts, and do not use advertising networks. All fonts are served locally by our hosting provider."
+        ]
+      },
+      {
+        "h": "3. Hosting and server log data",
+        "p": [
+          "This website is hosted by Cloudflare, Inc. (101 Townsend St, San Francisco, CA 94107, USA) via the Cloudflare Pages service. When you visit the website, Cloudflare processes technically necessary data such as IP address, date and time of access, pages accessed, and browser information in order to deliver the website and ensure its security and stability. The legal basis is Art. 6 (1)(f) GDPR (legitimate interest in the secure and performant operation of the website). Data transfer to the USA takes place on the basis of the EU Commission’s Standard Contractual Clauses and the EU-US Data Privacy Framework, under which Cloudflare is certified. Further information: https://www.cloudflare.com/privacypolicy/"
+        ]
+      },
+      {
+        "h": "4. Web analytics",
+        "p": [
+          "We use Cloudflare Web Analytics, a privacy-friendly analytics solution. Cloudflare Web Analytics does not set cookies, does not use fingerprinting, and does not track individual users across websites. Only aggregated, anonymous metrics are collected (e.g. page views, load times). The legal basis is Art. 6 (1)(f) GDPR (legitimate interest in measuring reach and improving the website)."
+        ]
+      },
+      {
+        "h": "5. Contacting us",
+        "p": [
+          "If you contact us by email or phone, we process the data you provide (e.g. name, email address, content of the inquiry) to handle your request. The legal basis is Art. 6 (1)(b) GDPR insofar as the inquiry serves the initiation or performance of a contract, and otherwise Art. 6 (1)(f) GDPR. The data is deleted as soon as it is no longer required for processing and no statutory retention obligations apply."
+        ]
+      },
+      {
+        "h": "6. External links",
+        "p": [
+          "This website contains links to external websites (e.g. LinkedIn). When you click such a link, you leave our website; the privacy policy of the respective provider applies."
+        ]
+      },
+      {
+        "h": "7. Your rights",
+        "p": [
+          "You have the following rights with regard to your personal data: the right of access (Art. 15 GDPR), rectification (Art. 16 GDPR), erasure (Art. 17 GDPR), restriction of processing (Art. 18 GDPR), data portability (Art. 20 GDPR), and objection to processing (Art. 21 GDPR). You also have the right to lodge a complaint with a data protection supervisory authority; the competent authority is the Hessian Commissioner for Data Protection and Freedom of Information."
+        ]
+      },
+      {
+        "h": "8. Changes to this privacy policy",
+        "p": [
+          "We will update this privacy policy if the website’s features or the legal situation change (e.g. when a contact form is introduced). The current version published on this page applies."
+        ]
+      }
+    ]
   }
 }
