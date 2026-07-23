@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
-import { serviceSlugs, serviceIcons } from "@/content/services";
+import { domainSlugs, domainIcons, flagshipDomain } from "@/content/services";
 import { projectSlugs } from "@/content/projects";
 import { Hero } from "@/components/sections/Hero";
 import { Section } from "@/components/ui/Section";
@@ -12,6 +12,7 @@ import { CTABanner } from "@/components/sections/CTABanner";
 import { Carousel } from "@/components/sections/Carousel";
 import { ImageSlider } from "@/components/sections/ImageSlider";
 import { Button } from "@/components/ui/Button";
+import { MonoLabel } from "@/components/ui/MonoLabel";
 import { Reveal } from "@/components/motion/Reveal";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -23,11 +24,9 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <Hero
-        brandmark
         label={dict.home.sectionLabel}
         heading={dict.home.heading}
         tagline={dict.home.tagline}
-        subline={dict.home.subline}
         primary={{ label: dict.home.ctaPrimary, href: `/${locale}/contact/` }}
         secondary={{ label: dict.home.ctaSecondary, href: `/${locale}/services/` }}
         assertion={dict.home.assertion}
@@ -53,33 +52,52 @@ export default async function HomePage({ params }: Props) {
         }
       />
 
-      <Section label={dict.home.servicesLabel} raised>
-        <h2 className="text-h2 font-semibold text-ink">{dict.home.servicesHeading}</h2>
+      <Section label={dict.home.domainsLabel} raised>
+        <h2 className="max-w-[28ch] text-h2 font-semibold text-ink">
+          {dict.home.domainsHeading}
+        </h2>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {serviceSlugs.map((slug, i) => (
-            <Reveal key={slug} delay={i * 60}>
-              <ServiceCard
-                icon={serviceIcons[slug]}
-                meta={String(i + 1).padStart(2, "0")}
-                title={dict.services.items[slug].title}
-                description={dict.services.items[slug].summary}
-                href={`/${locale}/services/#${slug}`}
-                linkLabel={dict.home.servicesLink}
-              />
+          {domainSlugs.map((slug, i) => (
+            <Reveal
+              key={slug}
+              delay={i * 60}
+              className={
+                slug === flagshipDomain ? "md:col-span-2 lg:col-span-1 lg:row-span-1" : ""
+              }
+            >
+              <div className="relative h-full">
+                {slug === flagshipDomain ? (
+                  <MonoLabel className="absolute -top-3 left-4 z-10 bg-surface-raised px-2">
+                    {dict.home.flagship}
+                  </MonoLabel>
+                ) : null}
+                <ServiceCard
+                  icon={domainIcons[slug]}
+                  meta={String(i + 1).padStart(2, "0")}
+                  title={dict.services.domains[slug].title}
+                  description={dict.services.domains[slug].tagline}
+                  href={`/${locale}/services/#${slug}`}
+                  linkLabel={dict.home.domainsLink}
+                />
+              </div>
             </Reveal>
           ))}
         </div>
       </Section>
 
-      <Section label={dict.home.approachLabel}>
+      <Section label={dict.home.thesisLabel}>
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
-            <h2 className="text-h2 font-semibold text-ink">
-              {dict.home.approachHeading}
+            <h2 className="max-w-[24ch] text-h2 font-semibold text-ink">
+              {dict.home.thesisHeading}
             </h2>
-            <p className="mt-5 max-w-[60ch] text-body text-ink-muted">
-              {dict.home.approachBody}
-            </p>
+            <div className="mt-5 space-y-4">
+              {dict.home.thesisBody.map((paragraph) => (
+                <p key={paragraph} className="max-w-[60ch] text-body text-ink-muted">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </div>
           <div className="grid content-center gap-8 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
             <StatBlock
@@ -91,6 +109,37 @@ export default async function HomePage({ params }: Props) {
             <StatBlock value={2026} label={dict.home.stats.founded.label} />
             <StatBlock value={5} label={dict.home.stats.disciplines.label} />
           </div>
+        </div>
+      </Section>
+
+      <Section label={dict.home.approachLabel} raised>
+        <h2 className="text-h2 font-semibold text-ink">{dict.home.approachHeading}</h2>
+        <ol className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+          {dict.home.approachSteps.map((step, i) => (
+            <Reveal key={step.name} delay={i * 60}>
+              <li className="h-full border-t-2 border-line pt-4">
+                <p className="font-mono text-mono-label uppercase text-ink-faint">
+                  {String(i + 1).padStart(2, "0")}
+                </p>
+                <p className="mt-1 text-h3 font-semibold text-ink">{step.name}</p>
+                <p className="mt-1 text-small text-ink-muted">{step.line}</p>
+              </li>
+            </Reveal>
+          ))}
+        </ol>
+      </Section>
+
+      <Section label={dict.home.whyLabel}>
+        <h2 className="text-h2 font-semibold text-ink">{dict.home.whyHeading}</h2>
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {dict.home.why.map((item, i) => (
+            <Reveal key={item.title} delay={i * 60}>
+              <div className="h-full rounded-lg border border-line bg-surface p-6">
+                <h3 className="text-h3 font-semibold text-ink">{item.title}</h3>
+                <p className="mt-2 text-body text-ink-muted">{item.body}</p>
+              </div>
+            </Reveal>
+          ))}
         </div>
       </Section>
 

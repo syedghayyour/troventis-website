@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Troventis – Enterprise Technology Consulting",
-    "description": "Boutique technology consultancy in Frankfurt: software quality engineering, test automation, AI solutions, cloud engineering, and software development.",
+    "title": "Troventis – Technology Consulting & Software Quality Engineering | Frankfurt",
+    "description": "Boutique technology consultancy in Frankfurt. We turn software quality from a bottleneck into an engineering advantage — quality engineering, AI, cloud & DevOps.",
     "ogAlt": "Troventis – Software Quality. Verified."
   },
   "nav": {
@@ -13,45 +13,21 @@
     "contact": "Contact",
     "imprint": "Imprint",
     "privacy": "Privacy",
-    "about": "About"
+    "about": "About",
+    "industries": "Industries",
+    "approach": "Approach"
   },
   "footer": {
     "tagline": "Quality, verified."
   },
   "home": {
-    "sectionLabel": "00 · troventis",
-    "heading": "Software Quality. Verified.",
-    "tagline": "We engineer confidence into every release.",
-    "ctaPrimary": "Book a consultation",
-    "ctaSecondary": "Our services",
-    "assertion": "senior engineering expertise",
-    "servicesLabel": "01 · services",
-    "servicesHeading": "What we deliver",
-    "servicesLink": "Learn more",
-    "approachLabel": "02 · approach",
-    "approachHeading": "Verify, don't promise",
-    "approachBody": "Troventis is a founder-led boutique consultancy based in Frankfurt am Main. We combine senior engineering expertise with modern delivery practices — and prove quality instead of claiming it. Every delivery is reviewed, tested, and transparently documented. We deliberately start focused and scale with trusted specialists as projects grow.",
-    "stats": {
-      "years": {
-        "suffix": "+",
-        "label": "Years of enterprise software quality engineering experience"
-      },
-      "founded": {
-        "label": "Founded in Frankfurt am Main"
-      },
-      "disciplines": {
-        "label": "Core disciplines — from QA strategy to cloud engineering"
-      }
-    },
-    "projectsLabel": "03 · projects",
-    "projectsHeading": "Selected work",
-    "projectsLink": "View all projects",
-    "ctaBanner": {
-      "label": "04 · contact",
-      "heading": "Let's talk about quality.",
-      "body": "QA strategy, test automation, or cloud modernization — we advise honestly, with technical depth and without buzzwords.",
-      "cta": "Book a consultation"
-    },
+    "sectionLabel": "boutique technology consultancy · frankfurt",
+    "heading": "We turn software quality from a bottleneck into an engineering advantage.",
+    "tagline": "Troventis combines software quality engineering, AI, and cloud expertise — with senior engineers on every engagement.",
+    "subline": "",
+    "ctaPrimary": "Let's discuss your engineering challenges",
+    "ctaSecondary": "Explore our services",
+    "assertion": "quality engineered from the first commit",
     "carousel": {
       "prev": "Previous project",
       "next": "Next project"
@@ -67,40 +43,238 @@
         "Client consultation"
       ]
     },
-    "subline": "Boutique technology consultancy for quality engineering, test automation, AI solutions, and cloud engineering — for organizations that take quality and reliability seriously."
+    "domainsLabel": "01 · what we do",
+    "domainsHeading": "Five consulting domains. One engineering standard.",
+    "domainsLink": "Learn more",
+    "flagship": "flagship expertise",
+    "thesisLabel": "02 · perspective",
+    "thesisHeading": "Quality is not a phase. It is a property of how you build.",
+    "thesisBody": [
+      "Most organisations treat quality as inspection: build first, test at the end, hope for the best. The result is the QA bottleneck — releases queuing behind test cycles, defects found when they are most expensive to fix.",
+      "We work from a different premise. Quality is engineered into strategy, architecture, and pipeline from the first commit — so testing confirms confidence instead of manufacturing it. That is what turns quality from a cost center into delivery speed.",
+      "Troventis is deliberately boutique: senior expertise on every engagement, direct collaboration without account layers, and partners we trust when initiatives scale."
+    ],
+    "stats": {
+      "years": {
+        "suffix": "+",
+        "label": "Years of enterprise software quality engineering experience"
+      },
+      "founded": {
+        "label": "Founded in Frankfurt am Main"
+      },
+      "disciplines": {
+        "label": "Core disciplines — from QA strategy to cloud engineering"
+      }
+    },
+    "approachLabel": "03 · how we work",
+    "approachHeading": "A method, not a mystery",
+    "approachSteps": [
+      {
+        "name": "Discover",
+        "line": "Understand your delivery reality"
+      },
+      {
+        "name": "Assess",
+        "line": "Map risks and quality posture"
+      },
+      {
+        "name": "Design",
+        "line": "Blueprint the target state"
+      },
+      {
+        "name": "Deliver",
+        "line": "Implement alongside your team"
+      },
+      {
+        "name": "Optimize",
+        "line": "Measure, tune, and hand over"
+      }
+    ],
+    "whyLabel": "04 · why troventis",
+    "whyHeading": "Why organisations choose a boutique",
+    "why": [
+      {
+        "title": "Senior expertise, always",
+        "body": "No junior teams behind a senior pitch. The expertise you meet is the expertise that delivers."
+      },
+      {
+        "title": "Direct collaboration",
+        "body": "No account managers between you and the work. Questions get answers from the person doing the engineering."
+      },
+      {
+        "title": "Decisions in days",
+        "body": "No steering-committee latency. We assess, recommend, and move — with your team, at your pace."
+      },
+      {
+        "title": "Partnership beyond the project",
+        "body": "Knowledge transfer is built into every engagement. Your team keeps the capability when we leave."
+      }
+    ],
+    "projectsLabel": "05 · selected work",
+    "projectsHeading": "Selected work",
+    "projectsLink": "View all projects",
+    "ctaBanner": {
+      "label": "06 · contact",
+      "heading": "Let's discuss your engineering challenges.",
+      "body": "Quality strategy, test automation, AI engineering, or delivery modernisation — book a discovery session and get an honest, technical assessment.",
+      "cta": "Book a discovery session"
+    }
   },
   "services": {
-    "metaTitle": "Services – Troventis",
-    "metaDescription": "Software quality engineering, test automation, AI solutions, cloud engineering & DevOps, and software development — services by Troventis.",
+    "metaTitle": "Services – Quality Engineering, AI, Cloud & DevOps Consulting | Troventis",
+    "metaDescription": "Five consulting domains: software quality engineering, AI engineering, cloud & DevOps, digital engineering, and technology advisory.",
     "label": "01 · services",
-    "heading": "Services",
-    "intro": "Five core disciplines, one standard: software whose quality can be proven. Every engagement starts with the business problem — not the tool.",
-    "items": {
+    "heading": "Consulting domains",
+    "intro": "We organise our work as consulting domains, not service menus. Every engagement starts with your business problem — and quality engineering runs through all of it.",
+    "capabilitiesLabel": "Capabilities",
+    "domains": {
       "quality-engineering": {
-        "title": "Software quality engineering",
-        "summary": "QA strategy, test architecture, and quality processes for reliable software delivery.",
-        "body": "We analyze your delivery pipeline, define measurable quality goals, and anchor quality assurance where it works: early in the process. From test strategy and test architecture through reviews to quality metrics that enable decisions."
+        "title": "Software Quality Engineering",
+        "tagline": "Our deepest expertise. Quality as an engineering discipline — designed into strategy, architecture, and pipeline, not inspected at the end.",
+        "capabilities": [
+          "Quality & test strategy",
+          "Test management",
+          "Test automation (web, API, mobile, desktop)",
+          "API & integration testing",
+          "Contract testing",
+          "Performance & load testing",
+          "Security testing",
+          "Accessibility testing",
+          "Continuous testing & quality gates",
+          "Shift-left enablement",
+          "AI-assisted testing",
+          "QA transformation"
+        ]
       },
-      "test-automation": {
-        "title": "Test automation",
-        "summary": "Maintainable automation for API, web, and integration — anchored in your CI/CD pipeline.",
-        "body": "Automation that builds confidence instead of maintenance burden: clean test architecture, stable API, web, and integration tests, and consistent CI/CD integration. The result is fast, reliable feedback loops for your team."
-      },
-      "ai-solutions": {
-        "title": "AI solutions",
-        "summary": "AI-powered backend services and quality assurance for AI-based systems.",
-        "body": "We build AI-powered services for enterprise applications and bring quality discipline to AI systems: evaluation, testability, and reliable behavior in production — pragmatic and hype-free."
+      "ai-engineering": {
+        "title": "AI Engineering",
+        "tagline": "AI that survives contact with production. We build AI-powered systems — and bring quality discipline to systems built on AI.",
+        "capabilities": [
+          "AI consulting & integration",
+          "LLM engineering & AI agents",
+          "Prompt engineering",
+          "AI quality assurance & evaluation",
+          "AI guardrails & observability",
+          "AI governance"
+        ]
       },
       "cloud-devops": {
-        "title": "Cloud engineering & DevOps",
-        "summary": "CI/CD optimization, cloud-native architectures, and delivery processes that scale.",
-        "body": "From CI/CD pipeline optimization to cloud-native quality initiatives: we modernize delivery processes so releases become faster, safer, and repeatable — with infrastructure your team understands and can operate."
+        "title": "Cloud & DevOps Engineering",
+        "tagline": "Delivery infrastructure that makes quality repeatable — pipelines, platforms, and cloud-native architecture your team can operate.",
+        "capabilities": [
+          "DevOps consulting",
+          "CI/CD design & optimization",
+          "Platform engineering",
+          "Cloud-native architecture",
+          "Infrastructure automation",
+          "Kubernetes & containerization",
+          "Release engineering"
+        ]
       },
-      "software-development": {
-        "title": "Software development",
-        "summary": "Senior development for backend services and enterprise platforms — testable from day one.",
-        "body": "Development with a quality standard: clean architecture, testability as a design criterion, and code your team can maintain long-term. Ideal for teams looking for reinforcement with a senior perspective."
+      "digital-engineering": {
+        "title": "Digital Engineering",
+        "tagline": "Senior engineering for systems that last. Architecture, backend, and integration — with testability as a design criterion.",
+        "capabilities": [
+          "Software architecture",
+          "Backend engineering",
+          "API engineering",
+          "System integration",
+          "Modernisation & legacy transformation"
+        ]
+      },
+      "technology-advisory": {
+        "title": "Technology Advisory",
+        "tagline": "Engineering leadership, on demand — an experienced outside perspective when decisions matter.",
+        "capabilities": [
+          "Engineering assessments",
+          "Architecture reviews",
+          "QA transformation",
+          "Release strategy",
+          "Technical due diligence",
+          "Engineering coaching",
+          "Fractional QA leadership"
+        ]
       }
+    },
+    "engagement": {
+      "heading": "How we engage",
+      "intro": "We engage the way your challenge requires — always senior, always direct. For larger initiatives, we scale with a network of trusted specialist partners.",
+      "models": [
+        {
+          "title": "Advisory & assessments",
+          "body": "Focused reviews of quality posture, architecture, or delivery — with a prioritized, actionable report."
+        },
+        {
+          "title": "Project delivery",
+          "body": "Hands-on implementation of automation platforms, pipelines, or AI systems, end to end."
+        },
+        {
+          "title": "Embedded senior engineering",
+          "body": "A senior engineer inside your team — raising the bar from within, transferring knowledge daily."
+        },
+        {
+          "title": "Fractional quality leadership",
+          "body": "QA leadership capacity without a full-time hire — strategy, standards, and team development."
+        },
+        {
+          "title": "Enablement & coaching",
+          "body": "Workshops and pairing that leave your team with capabilities, not dependencies."
+        }
+      ]
+    },
+    "ecosystem": {
+      "heading": "Technology ecosystem",
+      "intro": "Tools don't create quality — engineering judgment does. These are the ecosystems we work in daily.",
+      "groups": [
+        {
+          "name": "Test automation (web)",
+          "items": ["Playwright", "Selenium", "Cypress", "WebdriverIO", "Robot Framework"]
+        },
+        {
+          "name": "API testing",
+          "items": ["Postman", "REST Assured", "Karate", "Bruno", "SoapUI"]
+        },
+        {
+          "name": "Contract testing",
+          "items": ["Pact", "Spring Cloud Contract", "Specmatic"]
+        },
+        {
+          "name": "Mobile testing",
+          "items": ["Appium", "Maestro", "Espresso", "XCUITest"]
+        },
+        {
+          "name": "Desktop testing",
+          "items": ["Ranorex", "WinAppDriver", "Playwright (Electron)"]
+        },
+        {
+          "name": "Performance testing",
+          "items": ["k6", "JMeter", "Gatling", "Locust"]
+        },
+        {
+          "name": "Test management",
+          "items": ["Xray", "Zephyr", "TestRail", "Testiny", "Azure Test Plans"]
+        },
+        {
+          "name": "CI/CD",
+          "items": ["GitHub Actions", "GitLab CI", "Jenkins", "Azure DevOps"]
+        },
+        {
+          "name": "Cloud & containers",
+          "items": ["AWS", "Azure", "Kubernetes", "Docker"]
+        },
+        {
+          "name": "AI & LLM",
+          "items": ["OpenAI", "Anthropic", "LangChain", "Evaluation tooling"]
+        },
+        {
+          "name": "Languages",
+          "items": ["Java", "TypeScript", "Python", "C#"]
+        },
+        {
+          "name": "Reporting & observability",
+          "items": ["Allure", "Grafana", "Prometheus", "ELK"]
+        }
+      ]
     }
   },
   "projects": {
@@ -284,5 +458,89 @@
       }
     ],
     "cta": "Book a consultation"
+  },
+  "approach": {
+    "metaTitle": "Our Approach – Discover, Assess, Design, Deliver, Optimize | Troventis",
+    "metaDescription": "The Troventis consulting method: five phases from discovery to sustained capability — every phase ends with something verifiable.",
+    "label": "02 · approach",
+    "heading": "A method, not a mystery",
+    "intro": "Consulting is often bought on trust and delivered as a black box. We work the other way around: a transparent five-phase method where every phase ends with something verifiable — and nothing ends with a slide deck alone.",
+    "phases": [
+      {
+        "meta": "phase 01",
+        "title": "Discover",
+        "body": "We start by understanding your delivery reality — systems, teams, constraints, and goals. Stakeholder conversations and codebase review, not assumptions. You get a shared, written problem definition.",
+        "deliverable": "Shared problem definition"
+      },
+      {
+        "meta": "phase 02",
+        "title": "Assess",
+        "body": "We evaluate your quality posture end to end: strategy, test coverage, automation, pipeline, architecture, and team practice. Honest findings, ranked by risk and business impact — including what is already working.",
+        "deliverable": "Findings & prioritized risk map"
+      },
+      {
+        "meta": "phase 03",
+        "title": "Design",
+        "body": "We design the target state and a pragmatic route to it: quality gates, automation architecture, tooling decisions, and the team model to sustain them. Ambitious enough to matter, realistic enough to ship.",
+        "deliverable": "Actionable blueprint & roadmap"
+      },
+      {
+        "meta": "phase 04",
+        "title": "Deliver",
+        "body": "We implement alongside your team — senior, hands-on execution with knowledge transfer built into daily work. Progress lands in your repository and pipeline, not in status reports.",
+        "deliverable": "Working improvements in production"
+      },
+      {
+        "meta": "phase 05",
+        "title": "Optimize",
+        "body": "We measure what changed, tune what needs it, and hand over deliberately. Quality metrics, documentation, and practiced routines that outlive the engagement.",
+        "deliverable": "Sustained capability, not dependency"
+      }
+    ],
+    "deliverableLabel": "You get",
+    "closing": "Every phase ends with something verifiable. No phase ends with a slide deck alone.",
+    "cta": "Book a discovery session"
+  },
+  "industries": {
+    "metaTitle": "Industries – Engineering Consulting for Finance, Telco & Public Sector | Troventis",
+    "metaDescription": "How Troventis adapts quality engineering to regulated and demanding domains: financial services, telecommunications, public sector, healthcare, manufacturing, SaaS.",
+    "label": "03 · industries",
+    "heading": "Engineering practices are universal. Their constraints are not.",
+    "intro": "Good engineering travels across domains — but every industry has its own regulatory, technical, and organisational reality. We adapt quality engineering to that reality instead of forcing one template on all of them.",
+    "items": [
+      {
+        "title": "Financial services",
+        "constraint": "Regulation, auditability, and zero tolerance for defective releases.",
+        "adaptation": "Traceable quality gates, risk-based test strategies, and documentation that satisfies auditors without slowing engineers."
+      },
+      {
+        "title": "Telecommunications",
+        "constraint": "Massive scale, dense system integration, and long-lived legacy landscapes.",
+        "adaptation": "Automation platforms built for API and integration complexity, anchored in CI/CD — proven in our own telco project work."
+      },
+      {
+        "title": "Public sector",
+        "constraint": "Procurement rules, compliance requirements, and decade-long system lifecycles.",
+        "adaptation": "Sustainable, vendor-independent QA structures and advisory that survives staff and supplier changes — grounded in our public sector consulting experience."
+      },
+      {
+        "title": "Healthcare",
+        "constraint": "Patient safety, standards compliance, and validated processes.",
+        "adaptation": "Documented verification, rigorous traceability from requirement to test, and process discipline without process theater."
+      },
+      {
+        "title": "Manufacturing & IoT",
+        "constraint": "Software meeting hardware — physical constraints, embedded interfaces, field conditions.",
+        "adaptation": "System integration testing across the hardware/software boundary and test strategies for what cannot be fully simulated."
+      },
+      {
+        "title": "SaaS & e-commerce",
+        "constraint": "Release velocity, conversion risk, and users one click from a competitor.",
+        "adaptation": "Continuous testing that keeps pace with daily deploys, performance engineering, and quality signals wired into the release decision."
+      }
+    ],
+    "constraintLabel": "The reality",
+    "adaptationLabel": "Our adaptation",
+    "cta": "Let's discuss your engineering challenges"
   }
 }

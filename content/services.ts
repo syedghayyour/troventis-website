@@ -1,27 +1,23 @@
-import {
-  ShieldCheck,
-  FlaskConical,
-  Cpu,
-  Cloud,
-  Code,
-  type LucideIcon,
-} from "lucide-react";
+import { ShieldCheck, Cpu, Cloud, Code, Compass, type LucideIcon } from "lucide-react";
 
-/** Service registry: slugs + icons. Copy lives in the locale dictionaries. */
-export const serviceSlugs = [
+/** Consulting domain registry (R1 repositioning). Copy in dictionaries. */
+export const domainSlugs = [
   "quality-engineering",
-  "test-automation",
-  "ai-solutions",
+  "ai-engineering",
   "cloud-devops",
-  "software-development",
+  "digital-engineering",
+  "technology-advisory",
 ] as const;
 
-export type ServiceSlug = (typeof serviceSlugs)[number];
+export type DomainSlug = (typeof domainSlugs)[number];
 
-export const serviceIcons: Record<ServiceSlug, LucideIcon> = {
+export const domainIcons: Record<DomainSlug, LucideIcon> = {
   "quality-engineering": ShieldCheck,
-  "test-automation": FlaskConical,
-  "ai-solutions": Cpu,
+  "ai-engineering": Cpu,
   "cloud-devops": Cloud,
-  "software-development": Code,
+  "digital-engineering": Code,
+  "technology-advisory": Compass,
 };
+
+/** The flagship domain gets visual weight (Strategy §5.1). */
+export const flagshipDomain: DomainSlug = "quality-engineering";

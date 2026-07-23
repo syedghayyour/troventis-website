@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Troventis – Enterprise Technology Consulting",
-    "description": "Boutique-Technologieberatung aus Frankfurt: Software Quality Engineering, Testautomatisierung, KI-Lösungen, Cloud Engineering und Softwareentwicklung.",
+    "title": "Troventis – Technologieberatung & Software Quality Engineering | Frankfurt",
+    "description": "Boutique-Technologieberatung aus Frankfurt. Wir machen Softwarequalität vom Engpass zum Engineering-Vorteil – Quality Engineering, KI, Cloud & DevOps.",
     "ogAlt": "Troventis – Software Quality. Verified."
   },
   "nav": {
@@ -13,45 +13,21 @@
     "contact": "Kontakt",
     "imprint": "Impressum",
     "privacy": "Datenschutz",
-    "about": "Über uns"
+    "about": "Über uns",
+    "industries": "Branchen",
+    "approach": "Vorgehen"
   },
   "footer": {
     "tagline": "Qualität, verifiziert."
   },
   "home": {
-    "sectionLabel": "00 · troventis",
-    "heading": "Softwarequalität. Verifiziert.",
-    "tagline": "Wir bauen Vertrauen in jedes Release ein.",
-    "ctaPrimary": "Beratungsgespräch vereinbaren",
+    "sectionLabel": "boutique technology consultancy · frankfurt",
+    "heading": "Wir machen Softwarequalität vom Engpass zum Engineering-Vorteil.",
+    "tagline": "Troventis vereint Software Quality Engineering, KI- und Cloud-Expertise – mit Senior Engineers in jedem Engagement.",
+    "subline": "",
+    "ctaPrimary": "Lassen Sie uns über Ihre Engineering-Herausforderungen sprechen",
     "ctaSecondary": "Unsere Leistungen",
-    "assertion": "senior engineering expertise",
-    "servicesLabel": "01 · Leistungen",
-    "servicesHeading": "Was wir liefern",
-    "servicesLink": "Mehr erfahren",
-    "approachLabel": "02 · Arbeitsweise",
-    "approachHeading": "Verifizieren statt versprechen",
-    "approachBody": "Troventis ist eine inhabergeführte Boutique-Beratung aus Frankfurt am Main. Wir kombinieren Senior-Engineering-Expertise mit modernen Delivery-Praktiken – und belegen Qualität, statt sie zu behaupten. Jede Lieferung ist reviewt, getestet und nachvollziehbar dokumentiert. Wir starten bewusst fokussiert und skalieren mit vertrauten Spezialisten, wenn Projekte wachsen.",
-    "stats": {
-      "years": {
-        "suffix": "+",
-        "label": "Jahre Enterprise-Erfahrung in Software Quality Engineering"
-      },
-      "founded": {
-        "label": "Gegründet in Frankfurt am Main"
-      },
-      "disciplines": {
-        "label": "Kerndisziplinen – von QA-Strategie bis Cloud Engineering"
-      }
-    },
-    "projectsLabel": "03 · Projekte",
-    "projectsHeading": "Ausgewählte Arbeiten",
-    "projectsLink": "Alle Projekte ansehen",
-    "ctaBanner": {
-      "label": "04 · Kontakt",
-      "heading": "Lassen Sie uns über Qualität sprechen.",
-      "body": "Ob QA-Strategie, Testautomatisierung oder Cloud-Modernisierung – wir beraten Sie ehrlich, technisch fundiert und ohne Buzzwords.",
-      "cta": "Beratungsgespräch vereinbaren"
-    },
+    "assertion": "quality engineered from the first commit",
     "carousel": {
       "prev": "Vorheriges Projekt",
       "next": "Nächstes Projekt"
@@ -67,40 +43,238 @@
         "Beratungsgespräch mit Kunden"
       ]
     },
-    "subline": "Boutique-Technologieberatung für Quality Engineering, Testautomatisierung, KI-Lösungen und Cloud Engineering – für Organisationen, die Qualität und Verlässlichkeit ernst nehmen."
+    "domainsLabel": "01 · was wir tun",
+    "domainsHeading": "Fünf Beratungsfelder. Ein Engineering-Standard.",
+    "domainsLink": "Mehr erfahren",
+    "flagship": "flagship expertise",
+    "thesisLabel": "02 · perspektive",
+    "thesisHeading": "Qualität ist keine Phase. Sie ist eine Eigenschaft Ihrer Delivery.",
+    "thesisBody": [
+      "Viele Organisationen behandeln Qualität als Inspektion: erst bauen, am Ende testen, das Beste hoffen. Das Ergebnis ist der QA-Engpass – Releases stauen sich vor Testzyklen, Fehler werden gefunden, wenn ihre Behebung am teuersten ist.",
+      "Wir arbeiten mit einer anderen Prämisse: Qualität wird von Anfang an in Strategie, Architektur und Pipeline eingebaut – sodass Tests Vertrauen bestätigen, statt es mühsam herzustellen. Genau das macht Qualität vom Kostenfaktor zum Geschwindigkeitsvorteil.",
+      "Troventis ist bewusst boutique: Senior-Expertise in jedem Engagement, direkte Zusammenarbeit ohne Account-Ebenen – und vertraute Partner, wenn Initiativen wachsen."
+    ],
+    "stats": {
+      "years": {
+        "suffix": "+",
+        "label": "Jahre Enterprise-Erfahrung in Software Quality Engineering"
+      },
+      "founded": {
+        "label": "Gegründet in Frankfurt am Main"
+      },
+      "disciplines": {
+        "label": "Kerndisziplinen – von QA-Strategie bis Cloud Engineering"
+      }
+    },
+    "approachLabel": "03 · wie wir arbeiten",
+    "approachHeading": "Methode statt Blackbox",
+    "approachSteps": [
+      {
+        "name": "Discover",
+        "line": "Ihre Delivery-Realität verstehen"
+      },
+      {
+        "name": "Assess",
+        "line": "Risiken und Qualitätslage erfassen"
+      },
+      {
+        "name": "Design",
+        "line": "Zielbild und Roadmap entwerfen"
+      },
+      {
+        "name": "Deliver",
+        "line": "Gemeinsam mit Ihrem Team umsetzen"
+      },
+      {
+        "name": "Optimize",
+        "line": "Messen, verbessern, übergeben"
+      }
+    ],
+    "whyLabel": "04 · warum troventis",
+    "whyHeading": "Warum Organisationen eine Boutique wählen",
+    "why": [
+      {
+        "title": "Senior-Expertise, immer",
+        "body": "Keine Junior-Teams hinter einem Senior-Pitch. Die Expertise, die Sie kennenlernen, ist die Expertise, die liefert."
+      },
+      {
+        "title": "Direkte Zusammenarbeit",
+        "body": "Keine Account-Manager zwischen Ihnen und der Arbeit. Fragen beantwortet, wer das Engineering macht."
+      },
+      {
+        "title": "Entscheidungen in Tagen",
+        "body": "Keine Steering-Committee-Latenz. Wir analysieren, empfehlen und handeln – mit Ihrem Team, in Ihrem Tempo."
+      },
+      {
+        "title": "Partnerschaft über das Projekt hinaus",
+        "body": "Wissenstransfer ist Teil jedes Engagements. Die Fähigkeiten bleiben bei Ihrem Team."
+      }
+    ],
+    "projectsLabel": "05 · ausgewählte arbeiten",
+    "projectsHeading": "Ausgewählte Arbeiten",
+    "projectsLink": "Alle Projekte ansehen",
+    "ctaBanner": {
+      "label": "06 · kontakt",
+      "heading": "Lassen Sie uns über Ihre Engineering-Herausforderungen sprechen.",
+      "body": "Qualitätsstrategie, Testautomatisierung, KI-Engineering oder Delivery-Modernisierung – vereinbaren Sie eine Discovery Session und erhalten Sie eine ehrliche, technische Einschätzung.",
+      "cta": "Discovery Session vereinbaren"
+    }
   },
   "services": {
-    "metaTitle": "Leistungen – Troventis",
-    "metaDescription": "Software Quality Engineering, Testautomatisierung, KI-Lösungen, Cloud Engineering & DevOps und Softwareentwicklung – Leistungen von Troventis.",
-    "label": "01 · Leistungen",
-    "heading": "Leistungen",
-    "intro": "Fünf Kerndisziplinen, ein Anspruch: Software, deren Qualität belegbar ist. Jedes Engagement beginnt mit dem Geschäftsproblem – nicht mit dem Werkzeug.",
-    "items": {
+    "metaTitle": "Leistungen – Quality Engineering, KI, Cloud & DevOps Beratung | Troventis",
+    "metaDescription": "Fünf Beratungsfelder: Software Quality Engineering, KI-Engineering, Cloud & DevOps, Digital Engineering und Technology Advisory.",
+    "label": "01 · leistungen",
+    "heading": "Beratungsfelder",
+    "intro": "Wir organisieren unsere Arbeit als Beratungsfelder, nicht als Servicekatalog. Jedes Engagement beginnt mit Ihrem Geschäftsproblem – und Quality Engineering zieht sich durch alles.",
+    "capabilitiesLabel": "Leistungen",
+    "domains": {
       "quality-engineering": {
         "title": "Software Quality Engineering",
-        "summary": "QA-Strategie, Testarchitektur und Qualitätsprozesse für verlässliche Software-Lieferung.",
-        "body": "Wir analysieren Ihre Delivery-Pipeline, definieren messbare Qualitätsziele und verankern Qualitätssicherung dort, wo sie wirkt: früh im Prozess. Von Teststrategie und Testarchitektur über Reviews bis zu Qualitätsmetriken, die Entscheidungen ermöglichen."
+        "tagline": "Unsere tiefste Expertise. Qualität als Engineering-Disziplin – eingebaut in Strategie, Architektur und Pipeline, nicht am Ende inspiziert.",
+        "capabilities": [
+          "Qualitäts- & Teststrategie",
+          "Testmanagement",
+          "Testautomatisierung (Web, API, Mobile, Desktop)",
+          "API- & Integrationstests",
+          "Contract Testing",
+          "Performance- & Lasttests",
+          "Security Testing",
+          "Accessibility Testing",
+          "Continuous Testing & Quality Gates",
+          "Shift-Left-Enablement",
+          "KI-gestütztes Testen",
+          "QA-Transformation"
+        ]
       },
-      "test-automation": {
-        "title": "Testautomatisierung",
-        "summary": "Wartbare Automatisierung für API, Web und Integration – in der CI/CD-Pipeline verankert.",
-        "body": "Automatisierung, die Vertrauen schafft statt Wartungslast: saubere Testarchitektur, stabile API-, Web- und Integrationstests und konsequente Einbindung in CI/CD. Das Ergebnis sind schnelle, verlässliche Feedback-Schleifen für Ihr Team."
-      },
-      "ai-solutions": {
-        "title": "KI-Lösungen",
-        "summary": "KI-gestützte Backend-Services und Qualitätssicherung für KI-basierte Systeme.",
-        "body": "Wir entwickeln KI-gestützte Services für Unternehmensanwendungen und bringen Qualitätsdisziplin in KI-Systeme: Evaluierung, Testbarkeit und verlässliches Verhalten in Produktion – pragmatisch und ohne Hype."
+      "ai-engineering": {
+        "title": "AI Engineering",
+        "tagline": "KI, die den Produktionsbetrieb übersteht. Wir bauen KI-gestützte Systeme – und bringen Qualitätsdisziplin in Systeme, die auf KI basieren.",
+        "capabilities": [
+          "KI-Beratung & Integration",
+          "LLM-Engineering & KI-Agenten",
+          "Prompt Engineering",
+          "KI-Qualitätssicherung & Evaluierung",
+          "KI-Guardrails & Observability",
+          "KI-Governance"
+        ]
       },
       "cloud-devops": {
-        "title": "Cloud Engineering & DevOps",
-        "summary": "CI/CD-Optimierung, cloud-native Architekturen und Delivery-Prozesse, die skalieren.",
-        "body": "Von der CI/CD-Pipeline-Optimierung bis zu cloud-nativen Qualitätsinitiativen: Wir modernisieren Delivery-Prozesse, sodass Releases schneller, sicherer und wiederholbar werden – mit Infrastruktur, die Ihr Team versteht und betreiben kann."
+        "title": "Cloud & DevOps Engineering",
+        "tagline": "Delivery-Infrastruktur, die Qualität wiederholbar macht – Pipelines, Plattformen und cloud-native Architektur, die Ihr Team betreiben kann.",
+        "capabilities": [
+          "DevOps-Beratung",
+          "CI/CD-Design & Optimierung",
+          "Platform Engineering",
+          "Cloud-native Architektur",
+          "Infrastruktur-Automatisierung",
+          "Kubernetes & Containerisierung",
+          "Release Engineering"
+        ]
       },
-      "software-development": {
-        "title": "Softwareentwicklung",
-        "summary": "Senior-Entwicklung für Backend-Services und Unternehmensplattformen – testbar von Anfang an.",
-        "body": "Entwicklung mit Qualitätsanspruch: saubere Architektur, Testbarkeit als Designkriterium und Code, den Ihr Team langfristig warten kann. Ideal für Teams, die Verstärkung mit Senior-Perspektive suchen."
+      "digital-engineering": {
+        "title": "Digital Engineering",
+        "tagline": "Senior Engineering für Systeme mit Zukunft. Architektur, Backend und Integration – mit Testbarkeit als Designkriterium.",
+        "capabilities": [
+          "Softwarearchitektur",
+          "Backend-Engineering",
+          "API-Engineering",
+          "Systemintegration",
+          "Modernisierung & Legacy-Transformation"
+        ]
+      },
+      "technology-advisory": {
+        "title": "Technology Advisory",
+        "tagline": "Engineering-Führung auf Abruf – eine erfahrene Außenperspektive, wenn Entscheidungen zählen.",
+        "capabilities": [
+          "Engineering-Assessments",
+          "Architektur-Reviews",
+          "QA-Transformation",
+          "Release-Strategie",
+          "Technical Due Diligence",
+          "Engineering-Coaching",
+          "Fractional QA Leadership"
+        ]
       }
+    },
+    "engagement": {
+      "heading": "Wie wir zusammenarbeiten",
+      "intro": "Wir arbeiten so, wie es Ihre Herausforderung erfordert – immer senior, immer direkt. Bei größeren Initiativen skalieren wir mit einem Netzwerk vertrauter Spezialisten.",
+      "models": [
+        {
+          "title": "Advisory & Assessments",
+          "body": "Fokussierte Reviews von Qualitätslage, Architektur oder Delivery – mit einem priorisierten, umsetzbaren Bericht."
+        },
+        {
+          "title": "Projektumsetzung",
+          "body": "Hands-on-Implementierung von Automatisierungsplattformen, Pipelines oder KI-Systemen – Ende zu Ende."
+        },
+        {
+          "title": "Embedded Senior Engineering",
+          "body": "Ein Senior Engineer in Ihrem Team – hebt das Niveau von innen und transferiert Wissen täglich."
+        },
+        {
+          "title": "Fractional Quality Leadership",
+          "body": "QA-Führungskapazität ohne Vollzeitstelle – Strategie, Standards und Teamentwicklung."
+        },
+        {
+          "title": "Enablement & Coaching",
+          "body": "Workshops und Pairing, die Fähigkeiten hinterlassen – keine Abhängigkeiten."
+        }
+      ]
+    },
+    "ecosystem": {
+      "heading": "Technologie-Ökosystem",
+      "intro": "Werkzeuge erzeugen keine Qualität – Engineering-Urteilsvermögen tut es. In diesen Ökosystemen arbeiten wir täglich.",
+      "groups": [
+        {
+          "name": "Test automation (web)",
+          "items": ["Playwright", "Selenium", "Cypress", "WebdriverIO", "Robot Framework"]
+        },
+        {
+          "name": "API testing",
+          "items": ["Postman", "REST Assured", "Karate", "Bruno", "SoapUI"]
+        },
+        {
+          "name": "Contract testing",
+          "items": ["Pact", "Spring Cloud Contract", "Specmatic"]
+        },
+        {
+          "name": "Mobile testing",
+          "items": ["Appium", "Maestro", "Espresso", "XCUITest"]
+        },
+        {
+          "name": "Desktop testing",
+          "items": ["Ranorex", "WinAppDriver", "Playwright (Electron)"]
+        },
+        {
+          "name": "Performance testing",
+          "items": ["k6", "JMeter", "Gatling", "Locust"]
+        },
+        {
+          "name": "Test management",
+          "items": ["Xray", "Zephyr", "TestRail", "Testiny", "Azure Test Plans"]
+        },
+        {
+          "name": "CI/CD",
+          "items": ["GitHub Actions", "GitLab CI", "Jenkins", "Azure DevOps"]
+        },
+        {
+          "name": "Cloud & containers",
+          "items": ["AWS", "Azure", "Kubernetes", "Docker"]
+        },
+        {
+          "name": "AI & LLM",
+          "items": ["OpenAI", "Anthropic", "LangChain", "Evaluation tooling"]
+        },
+        {
+          "name": "Languages",
+          "items": ["Java", "TypeScript", "Python", "C#"]
+        },
+        {
+          "name": "Reporting & observability",
+          "items": ["Allure", "Grafana", "Prometheus", "ELK"]
+        }
+      ]
     }
   },
   "projects": {
@@ -284,5 +458,89 @@
       }
     ],
     "cta": "Beratungsgespräch vereinbaren"
+  },
+  "approach": {
+    "metaTitle": "Unser Vorgehen – Discover, Assess, Design, Deliver, Optimize | Troventis",
+    "metaDescription": "Die Troventis-Beratungsmethode: fünf Phasen von der Discovery bis zur nachhaltigen Fähigkeit – jede Phase endet mit etwas Überprüfbarem.",
+    "label": "02 · vorgehen",
+    "heading": "Methode statt Blackbox",
+    "intro": "Beratung wird oft auf Vertrauen gekauft und als Blackbox geliefert. Wir arbeiten umgekehrt: eine transparente Fünf-Phasen-Methode, in der jede Phase mit etwas Überprüfbarem endet – und keine mit einem Foliensatz allein.",
+    "phases": [
+      {
+        "meta": "phase 01",
+        "title": "Discover",
+        "body": "Wir beginnen damit, Ihre Delivery-Realität zu verstehen – Systeme, Teams, Rahmenbedingungen und Ziele. Stakeholder-Gespräche und Codebase-Review statt Annahmen. Sie erhalten eine gemeinsame, schriftliche Problemdefinition.",
+        "deliverable": "Gemeinsame Problemdefinition"
+      },
+      {
+        "meta": "phase 02",
+        "title": "Assess",
+        "body": "Wir bewerten Ihre Qualitätslage Ende zu Ende: Strategie, Testabdeckung, Automatisierung, Pipeline, Architektur und Teampraxis. Ehrliche Befunde, priorisiert nach Risiko und Geschäftsauswirkung – inklusive dessen, was bereits funktioniert.",
+        "deliverable": "Befunde & priorisierte Risikokarte"
+      },
+      {
+        "meta": "phase 03",
+        "title": "Design",
+        "body": "Wir entwerfen das Zielbild und einen pragmatischen Weg dorthin: Quality Gates, Automatisierungsarchitektur, Tooling-Entscheidungen und das Teammodell, das sie trägt. Ambitioniert genug, um zu wirken – realistisch genug, um zu liefern.",
+        "deliverable": "Umsetzbares Zielbild & Roadmap"
+      },
+      {
+        "meta": "phase 04",
+        "title": "Deliver",
+        "body": "Wir setzen gemeinsam mit Ihrem Team um – senior, hands-on, mit Wissenstransfer als Teil der täglichen Arbeit. Fortschritt landet in Ihrem Repository und Ihrer Pipeline, nicht in Statusberichten.",
+        "deliverable": "Wirksame Verbesserungen in Produktion"
+      },
+      {
+        "meta": "phase 05",
+        "title": "Optimize",
+        "body": "Wir messen, was sich verändert hat, justieren nach und übergeben bewusst. Qualitätsmetriken, Dokumentation und eingeübte Routinen, die das Engagement überdauern.",
+        "deliverable": "Nachhaltige Fähigkeit statt Abhängigkeit"
+      }
+    ],
+    "deliverableLabel": "Sie erhalten",
+    "closing": "Jede Phase endet mit etwas Überprüfbarem. Keine endet mit einem Foliensatz allein.",
+    "cta": "Discovery Session vereinbaren"
+  },
+  "industries": {
+    "metaTitle": "Branchen – Engineering-Beratung für Finanzen, Telko & öffentlichen Sektor | Troventis",
+    "metaDescription": "Wie Troventis Quality Engineering an regulierte und anspruchsvolle Domänen anpasst: Finanzdienstleistungen, Telekommunikation, öffentlicher Sektor, Healthcare, Fertigung, SaaS.",
+    "label": "03 · branchen",
+    "heading": "Engineering-Praktiken sind universell. Ihre Rahmenbedingungen nicht.",
+    "intro": "Gutes Engineering funktioniert domänenübergreifend – aber jede Branche hat ihre eigene regulatorische, technische und organisatorische Realität. Wir passen Quality Engineering an diese Realität an, statt allen dieselbe Schablone aufzuzwingen.",
+    "items": [
+      {
+        "title": "Finanzdienstleistungen",
+        "constraint": "Regulierung, Audit-Pflichten und null Toleranz für fehlerhafte Releases.",
+        "adaptation": "Nachvollziehbare Quality Gates, risikobasierte Teststrategien und Dokumentation, die Prüfer zufriedenstellt, ohne Engineers auszubremsen."
+      },
+      {
+        "title": "Telekommunikation",
+        "constraint": "Enorme Skalierung, dichte Systemintegration und langlebige Legacy-Landschaften.",
+        "adaptation": "Automatisierungsplattformen für API- und Integrationskomplexität, verankert in CI/CD – erprobt in unserer eigenen Telko-Projektarbeit."
+      },
+      {
+        "title": "Öffentlicher Sektor",
+        "constraint": "Vergaberecht, Compliance-Anforderungen und Systemlebenszyklen über Jahrzehnte.",
+        "adaptation": "Nachhaltige, herstellerunabhängige QA-Strukturen und Beratung, die Personal- und Lieferantenwechsel überdauert – gestützt auf unsere Beratungserfahrung im öffentlichen Sektor."
+      },
+      {
+        "title": "Healthcare",
+        "constraint": "Patientensicherheit, Normenkonformität und validierte Prozesse.",
+        "adaptation": "Dokumentierte Verifikation, lückenlose Nachvollziehbarkeit von Anforderung bis Test und Prozessdisziplin ohne Prozesstheater."
+      },
+      {
+        "title": "Fertigung & IoT",
+        "constraint": "Software trifft Hardware – physische Grenzen, Embedded-Schnittstellen, Feldbedingungen.",
+        "adaptation": "Systemintegrationstests über die Hardware-Software-Grenze hinweg und Teststrategien für das, was sich nicht vollständig simulieren lässt."
+      },
+      {
+        "title": "SaaS & E-Commerce",
+        "constraint": "Release-Geschwindigkeit, Conversion-Risiko und Nutzer, die einen Klick vom Wettbewerber entfernt sind.",
+        "adaptation": "Continuous Testing im Takt täglicher Deployments, Performance Engineering und Qualitätssignale direkt in der Release-Entscheidung."
+      }
+    ],
+    "constraintLabel": "Die Realität",
+    "adaptationLabel": "Unsere Anpassung",
+    "cta": "Lassen Sie uns über Ihre Engineering-Herausforderungen sprechen"
   }
 }
